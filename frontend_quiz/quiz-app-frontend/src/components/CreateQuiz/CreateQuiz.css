@@ -1,0 +1,107 @@
+.createQuiz {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('../../assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto; /* Add scrollbar if content exceeds height */
+}
+h1{
+  margin-top: 5%;
+}
+.createQuiz .form {
+  padding: 20px;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  max-height: 80vh; /* Set maximum height for the .form */
+  overflow-y: auto; /* Add scrollbar if .form exceeds height */
+  margin-bottom: 4%;
+}
+  /* For Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #dad6d6; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7f69b2fa; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Roundness of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #44385e; /* Color of the scrollbar thumb on hover */
+}
+
+  .createQuiz label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .createQuiz input[type="text"],
+  .createQuiz textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #520688;
+    box-shadow: 0 0 5px rgba(48, 2, 78, 0.695);
+    border-radius: 4px;
+  }
+  
+  .add-buttons {
+    padding: 8px 16px;
+    margin-top: 8px;
+    background-color: #052f5c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .end-buttons{
+    padding: 8px 16px;
+    margin-top: 8px;
+    background-color: #4b255e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .createQuiz button:hover {
+    background-color: #0056b3;
+  }
+
+  .question-area{
+    background-color: #7f69b276;
+    padding: 30px;
+    margin-bottom: 10px;
+  }
+
+  .checkbox{
+    margin-left: 10px;
+    background-color: #520688;
+    width: fit-content;
+   
+  }
+  .dsc-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .custom-checkbox {
+    width: 25px; /* Adjust the width as needed */
+    height: 25px; /* Adjust the height as needed */
+    cursor: pointer;
+    /* Add more styles as needed, e.g., background color, border, etc. */
+  }

@@ -1,0 +1,158 @@
+.results {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('../../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .results h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  table.display {
+    width: 100%;
+  }
+  .dt-length {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+  .dt-search {
+    padding: 13px;
+}
+
+.dt-info {
+    padding: 13px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    padding: 7px;
+    width: 70%;
+    margin-left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+label{
+    font-size: larger;
+    font-weight: 200;
+}
+
+select{
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 5px;
+}
+
+option{
+    font-size: 20px;
+    font-weight: 200;
+}
+.dt-paging.paging_full_numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.dt-paging-button.disabled.last {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #3c1c9a;
+    cursor: pointer;
+    
+}
+
+
+button.dt-paging-button.disabled.first {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #3c1c9a;
+    cursor: pointer;
+}
+
+button.dt-paging-button.disabled.previous{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #5c3cbc;
+    cursor: pointer;
+}
+button.dt-paging-button.disabled.next{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #5c3cbc;
+    cursor: pointer;
+}
+table.display th, table.display td {
+    padding: 12px 67px 14px;
+}
+button.dt-paging-button.current{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    padding-bottom: 8px;
+    color: rgb(0, 0, 0);
+    background-color: #847cc4;
+    
+
+}
+
+
+  
+  table.display thead {
+    background-color: #3c1c9a;
+    color: #fff;
+  }
+  
+  table.display tbody {
+    font-weight: 200;
+    background-color: #4f43635f;
+  }
+  
+  table.display tbody tr:hover {
+    background-color: #847cc4;
+  }
+  
+  .frame {
+    width: 57%;
+    display: flex;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #bd99a800;
+    
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}

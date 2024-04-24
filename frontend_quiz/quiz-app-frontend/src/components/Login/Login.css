@@ -1,0 +1,70 @@
+.login{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('../../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login form {
+    background-color: rgba(109, 76, 143, 0.439); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    width: 500px; /* Adjust as needed */
+}
+
+.login h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Adjust button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #6c43a9;
+}
+
+.login button:hover {
+    background-color: #0056b3; /* Adjust button hover color */
+}
+
+.login .error {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.login p {
+    margin-top: 10px;
+    text-align: center;
+}

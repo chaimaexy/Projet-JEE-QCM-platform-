@@ -1,0 +1,62 @@
+.instructions {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('../../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.instructions form {
+    width: 60%;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #692a44b7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.instructions h1 {
+    font-size: 50px;
+    color: #1e5cb2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.instructions p {
+    font-size: 34px;
+    color: #7078c7;
+    margin-bottom: 20px;
+}
+
+.instructions .browser-default {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #ced0d2;
+    font-weight: 300;
+}
+
+.instructions .button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instructions .button-group a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.instructions .button-group .btn-secondary {
+    background-color: #48525c;
+}
+
+.instructions .button-group .btn-primary {
+    background-color: #052f5c;
+}

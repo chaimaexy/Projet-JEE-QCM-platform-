@@ -1,0 +1,136 @@
+.play {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('../../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #010101;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.questions{
+   
+    background-color: rgba(255, 255, 255, 0.738);
+    border-left: 5px solid rgb(111, 0, 255);
+    width: 80%;
+    margin: 10px auto 0 auto;
+    padding: 10px 15px;
+}
+
+.lifeline-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lifeline{
+    position: relative;
+    top: 3px;
+
+}
+
+h5{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 1g;
+    line-height: 1.5;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+h3{
+    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: lighter;
+}
+.options-container{
+    display: inline-block;
+    font-size: 28px;
+    width: 50%;
+
+}
+
+.option{
+    background-color: rgb(126, 152, 243);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    margin:30px auto;
+    padding: 10px;
+    transition: 0.3s linear all ;
+    text-align: center;
+    width: 90%;
+}
+
+.option:hover{
+    background-color: rgb(106, 100, 176);
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 10px  auto;
+    padding: 30px;
+    width: 80%;
+}
+.button-container button{
+    border: none ;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 5px;
+    padding: 20px;
+   
+    box-shadow: #000000;
+    transition: 0.2s linear all;
+}
+
+
+  .correct-option {
+    background-color: rgba(0, 128, 0, 0.623);
+  }
+  
+  .incorrect-option {
+    background-color: rgba(255, 0, 0, 0.463);
+  }
+
+  .next{
+    background-color: rgba(8, 78, 28, 0.623);
+    color: #000000; 
+  }
+  .next:hover{
+    background-color: rgb(89, 200, 95);
+}
+  .quit{
+    background-color: rgba(255, 0, 0, 0.623);
+    color: #000000; 
+  }
+  .quit:hover{
+    background-color: rgb(90, 3, 3);
+}
+
+.result-p{
+    margin: 10px;
+    padding: 20px;
+    font-style: oblique;
+}
+
+.result-container{
+    background-color: rgba(255, 255, 255, 0.738);
+    border-left: 5px solid rgb(111, 0, 255);
+    width: 50%;
+    margin: 10px auto 0 auto;
+    padding: 10px 15px;
+}
